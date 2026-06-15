@@ -73,7 +73,6 @@ nav {
 
 .menu {
     border: 2px solid none;
-    padding: 10px;
     flex: 1;
     text-align: center;
     font-family: Aggravo3;
@@ -255,7 +254,7 @@ footer {
     #subtitle {
         font-size: 16px;
         /*변경 확인용*/
-        color: aquamarine;
+        color: rgb(145, 222, 125);
     }
 
     nav {
@@ -286,13 +285,18 @@ footer {
 
 @media (max-width: 480px) {
     #title {
-        font-size: 30px;
+        font-size: 35px;
     }
     
     #subtitle {
-        font-size: 12px;
+        font-size: 15px;
         /*변경 확인용*/
-        color: coral;
+        color: rgb(89, 167, 70);
+    }
+
+    .menu {
+        padding: 20px 5px;
+        font-size: 15px;
     }
 
     .rest-name {
