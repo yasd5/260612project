@@ -7,7 +7,7 @@
 ```bash
 260612project\
 │
-├── recom1.html
+├── index.html
 ├── recom2.html
 ├── recom3.html
 ├── up.png
