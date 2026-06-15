@@ -5,200 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NY's MAP</title>
-    <style>
-        @font-face {
-            font-family: 'Aggravo3';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
-            font-weight: 300;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: 'Aggravo2';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
-            font-weight: 500;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: 'Aggravo1';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
-            font-weight: 700;
-            font-display: swap;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: #c8e1d3;
-        }
-
-        #post {
-            margin: 10px 0;
-            background-color: white;
-        }
-
-        #upup {
-            position: fixed;
-            width: 45px;
-            height: 45px;
-            bottom: 8%;
-            right: 5%;
-            z-index: 1000;
-        }
-
-        #title {
-            font-family: Aggravo1;
-            font-size: 50px;
-            text-align: center;
-            background-color: white;
-        }
-
-        #subtitle {
-            font-family: Aggravo2;
-            font-size: 20px;
-            text-align: center;
-            margin-top: 10px;
-            background-color: white;
-        }
-
-        header {
-            background-color: white;
-            padding: 50px;
-            margin-top: 30px;
-        }
-
-        nav {
-            display: flex;
-            gap: 20px;
-            justify-content: space-between;
-            margin: 0 100px 20px 100px;
-            background-color: #c8e1d3;
-        }
-
-        .menu {
-            border: 2px solid none;
-            padding: 10px;
-            flex: 1;
-            text-align: center;
-            font-family: Aggravo3;
-            padding: 20px;
-            text-decoration: none;
-            color: #000;
-        }
-
-        .menu:hover {
-            background-color: #b1cabc;
-            font-size: 110%;
-            color: #fff;
-            transition: 0.2s;
-            cursor: pointer;
-        }
-
-
-        section {
-            margin: 0 200px;
-            background-color: white;
-            padding-bottom: 30px;
-        }
-
-        .restaurant {
-            background-color: white;
-        }
-
-        .rest-name {
-            font-family: Aggravo3;
-            font-size: 25px;
-            margin: 10px 0;
-            background-color: white;
-            float: left;
-        }
-
-        .content {
-            display: flex;
-            gap: 20px;
-            align-items: flex-start;
-            clear: both;
-        }
-
-        #img1 {
-            width: 300px;
-        }
-
-        .info {
-            font-family: Aggravo3;
-            font-size: 15px;
-            background-color: white;
-        }
-
-        .menu-name {
-            font-family: Aggravo3;
-            font-size: 20px;
-            margin: 20px 0 10px 0;
-            background-color: white;
-            text-align: center;
-        }
-
-        .card {
-            width: 200px;
-            height: 300px;
-            border: 4px solid #c8e1d3;
-            border-radius: 15px;
-            padding: 20px;
-            margin-top: 10px;
-            text-align: center;
-            font-family: Aggravo3;
-        }
-
-        .card:hover {
-            scale: 1.05;
-        }
-
-        .container {
-            display: flex;
-            gap: 16px;
-            justify-content: space-around;
-        }
-
-        .button {
-            font-family: Aggravo3;
-            font-size: 10px;
-            padding: 5px;
-            border: 2px solid #c8e1d3;
-            padding: 5px 7px;
-            margin-top: 15px;
-            border-radius: 10px;
-            text-decoration: none;
-            color: #000;
-            display: block;
-        }
-
-        .button:hover {
-            background-color: #b1cabc;
-            color: white;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-
-        .card-menu {
-            width: 170px;
-            height: 130px;
-            margin-top: 10px;
-        }
-
-        footer {
-            background-color: #c8e1d3;
-            padding: 20px;
-            margin: auto 20px;
-            font-family: Aggravo3;
-            font-size: 10px;
-            line-height: 1.5;
-            /*행간 조절*/
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -219,7 +26,7 @@
             <main class="restaurant">
                 <div class="rest-name">📍안다미로 팬케이크</div>
                 <div class="content">
-                    <img id="img1"
+                    <img id="img3"
                         src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250508_3%2F1746701667076JW99O_JPEG%2F20250507_%25BE%25C8%25B4%25D9%25B9%25CC%25B7%25CE%25C6%25E6%25C4%25C9%25C0%25CC%25C5%25A9%252810M%2529-0041.jpg"
                         alt="안다미로">
                     <div class="info"><br>▶ 서울 광진구 아차산로25길 8 2층 <a
@@ -235,7 +42,7 @@
                 </div>
                 <div class="menu-name">☰☰ Menu ☰☰</div>
                 <div class="container">
-                    <div class="card">
+                    <div class="card3">
                         <h3>안다미로 수플레</h3>
                         <h3>팬케이크</h3>
                         <h4>16,000원</h4>
@@ -245,7 +52,7 @@
                         <p><br>제철 과일이 안다미로 담긴 시그니쳐 수플레</p>
                         <a href="https://blog.naver.com/pipim91/224302031874" class="button" target="_blank">리뷰 보기</a>
                     </div>
-                    <div class="card">
+                    <div class="card3">
                         <h3>크림브륄레 수플레</h3>
                         <h3>팬케이크</h3>
                         <h4>15,000원</h4>
@@ -255,7 +62,7 @@
                         <p><br>수제 커스터드 크림 위에 캬라멜라이징으로 맛을 낸 수플레</p>
                         <a href="https://blog.naver.com/sscbb7014/224273102209" class="button" target="_blank">리뷰 보기</a>
                     </div>
-                    <div class="card">
+                    <div class="card3">
                         <h3>말차 수플레 팬케이크</h3>
                         <h4>14,000원</h4>
                         <img class="card-menu"
@@ -264,7 +71,7 @@
                         <p><br><br>담백하고 진한 말차 크림이 올라간 수플레</p>
                         <a href="https://blog.naver.com/gilu333/223932354045" class="button" target="_blank">리뷰 보기</a>
                     </div>
-                    <div class="card">
+                    <div class="card3">
                         <h3>더블 초코 크로플</h3>
                         <h4>6,500원</h4>
                         <img class="card-menu"
